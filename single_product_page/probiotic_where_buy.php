@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Probiotic Miracle 益生菌奇蹟 - 【商品合作醫院查詢】哪以買？</title>
+    <meta property="og:title" content="Probiotic Miracle - 益生菌奇蹟 -【商品合作醫院查詢】哪以買？ " />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.bioguard.com.tw/bioguard/single_product_page/probiotic_where_buy.php" />
+    <meta property="og:image" content="http://www.bioguard.com.tw/bioguard/single_product_page/images/probiotic/益生菌奇蹟專頁網站-04.png" />
+    <meta name="keywords" content="Probiotic Miracle,商品合作醫院查詢,哪以買？,酵素奇蹟,犬貓保健食品,減少腹瀉,便秘,提升腸道免疫力,改善腸道功能,減少脹氣,bioguard百衛生物科技" />
+    <meta name="description" content="Probiotic Miracle,商品合作醫院查詢,哪以買？,酵素奇蹟,犬貓保健食品,美國GPI認證,減少腹瀉,便秘,提升腸道免疫力,改善腸道功能,減少脹氣,不添加調味劑及防腐劑,bioguard百衛生物科技" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/enzyme/miracle_title_icon.png">
+    <link rel="stylesheet" type="text/css" href="css/probiotic_where_buy.css">
+    <meta name="msvalidate.01" content="26BA94035AA19F3F331D5A1773B8D43B" /> <!--bing網站seo登錄**重要**-->
+
+
+</head>
+<style>
+
+
+
+</style>
+
+
+<body>
+<?php include_once("../analyticstracking.php") ?>
+
+<div class="container">
+    <div class="yellow_bg_area">
+    </div>
+    <div class="container_info">
+        <div class="header">
+            <div class="top_area"><a href="probiotic_index.php"></a></div>
+            <div class="select">
+                <div class="menu menu1">
+                    <a href="probiotic.php">
+                        <p>
+                            益生菌Probiotic的作用
+                        </p>
+                    </a>
+                </div>
+                <div class="menu menu2">
+                    <a href="probiotic.php">
+                        <p>
+                            成份
+                        </p>
+                    </a>
+                </div>
+                <div class="menu menu3">
+                    <a href="probiotic.php">
+                        <p>
+                            產品規格
+                        </p>
+                    </a>
+                </div>
+                <div class="menu menu4">
+                    <a href="probiotic.php">
+                        <p>
+                            使用方法
+                        </p>
+                    </a>
+                </div>
+                <div class="menu menu5">
+                    <a href="probiotic.php">
+                        <p>
+                            『1+2』解決胰外分泌不足
+                        </p>
+                    </a>
+                </div>
+                <div class="menu menu6">
+                    <a href="probiotic_where_buy.php">
+                        <p>
+                            哪裡買？
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="info">
+
+            <div class="box box_1">
+                <div class="dog_area">
+                    <img class="dog" src="images/enzyme/酵素奇蹟專頁網站-14.png" alt="Probiotic Miracle-益生菌奇蹟">
+                    <div class="eye" style="left:60px">
+                        <div class="eye_pic"></div>
+                    </div>
+                    <div class="eye" style="left:130px">
+                        <div class="eye_pic"></div>
+                    </div>
+                </div>
+                <img class="where_word" src="images/enzyme/酵素奇蹟專頁網站-15.png" alt="Probiotic Miracle-益生菌奇蹟">
+                <div class="where_buy_box">
+                    <img class="h_detail_pic" src="images/醫院詳細資訊小圖.png" alt="kation行星治療計畫,哪裡買,商品合作醫院查詢">
+                    <?php
+                    include(__DIR__ . '/__search_box.php');
+                    ?>
+                    <img class="enzyme_product" src="images/enzyme/酵素奇蹟專頁網站-23.png" alt="Probiotic Miracle-益生菌奇蹟">
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            </br>
+            <p>百衛生物科技 | 地址：24890 新北市新北產業園區五工五路20-1號6樓</p>
+            <p>| Tel: 02-5591-6688 | Fax: +886-2-6625-8182 | 官方網站: <a href="http://www.bioguard.com.tw/bioguard/index_ch.php">http://www.bioguard.com.tw</a></p>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<script src="lib/jquery-1.12.0.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/jquery-1.12.0.js"></script>
+<script src="js/enzyme_where_buy.js"></script>
+<script src="js/search_box.js"></script>
+
+
+<script>
+
+    $(function(){
+
+
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<li><a href="diagnostic_introduction_ch.php"><p>診斷中心簡介</p></a></li>
+<li><a href="diagnostic_priceList_ch.php"><p>價目表</p></a></li>
+<li><a href="diagnostic_process_ch.php"><p>犬貓檢測送檢流程</p></a></li>
+<li><a href="diagnostic_qa_ch.php"><p>犬貓檢測Q&A</p></a></li>
+<li><a href="diagnostic_birds_qa_ch.php"><p>鳥類檢驗注意事項</p></a></li>
+<li><a href="diagnostic_info_allergy_ch.php"><p>過敏原檢測</p></a></li>
+<li><a href="diagnostic_info_pathological_s_ch.php"><p>病理切片</p></a></li>
+<li><a href="diagnostic_info_hereditary_ch.php"><p>犬貓遺傳性疾病檢測</p></a></li>
+<li><a href="diagnostic_download_ch.php"><p>下載檢測送檢單</p></a></li>

@@ -1,0 +1,9 @@
+<li><a href="diagnostic_introduction_chs.php"><p>诊断中心简介</p></a></li>
+<li><a href="diagnostic_priceList_chs.php"><p>价目表</p></a></li>
+<li><a href="diagnostic_process_chs.php"><p>犬猫检测送检流程</p></a></li>
+<li><a href="diagnostic_qa_chs.php"><p>犬猫检测Q&A</p></a></li>
+<li><a href="diagnostic_birds_qa_chs.php"><p>鸟类检验注意事项</p></a></li>
+<li><a href="diagnostic_info_allergy_chs.php"><p>过敏原检测</p></a></li>
+<li><a href="diagnostic_info_pathological_s_chs.php"><p>病理切片</p></a></li>
+<li><a href="diagnostic_info_hereditary_chs.php"><p>犬猫遗传性疾病检测</p></a></li>
+<li><a href="diagnostic_download_chs.php"><p>下载检测送检单</p></a></li>

@@ -1,0 +1,115 @@
+.table{
+    margin-bottom: 30px;
+}
+
+.table tr td ul li a{
+    color: #1a2231;
+}
+
+.table tr td ul li a p{
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.table tr td ul li a:hover{
+    color: #f00;
+}
+
+.hereditary_area{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.hereditary_bg{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+}
+
+.hereditary_box{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 85%;
+    background-color: #fff;
+    border: 10px solid #6b957d;
+    border-radius: 20px;
+}
+
+.delete_btn{
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 10px;
+    width: 29px;
+    height: 29px;
+    background: url("../images/icon/delete_icon.png") 0 0 no-repeat;
+    cursor: pointer;
+}
+
+.delete_btn:hover{
+    opacity: .5;
+}
+
+.hereditary_description{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 85%;
+    overflow: auto;
+}
+
+.hereditary_description > ul,.hereditary_description > ul > li{
+    position: absolute;
+    display: none;
+}
+
+.hereditary_description h2{
+    color: #498C69;
+}
+
+/*英文前9個*/
+.hereditary_description > ul > li:nth-child(-n+10) h4{
+    color: #49b1da;
+    margin-left: 30px;
+}
+
+/*英文9個之後*/
+.hereditary_description > ul > li:nth-child(n+10) h4{
+    color: #49b1da;
+    margin-left: 45px;
+}
+
+.circle{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    margin:0 10px 0 30px;
+}

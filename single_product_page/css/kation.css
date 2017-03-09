@@ -1,0 +1,753 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    font-family: 'Open Sans','微軟正黑體';
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-width: 1080px;
+    height:100%;
+    background: url("../images/kation/first/bg.png") 0 0 no-repeat;
+}
+
+.container{
+    width: 100%;
+    background: url("../images/kation/first/bg.png") 0 0 no-repeat;
+    position: relative;
+    height: 100%;
+    display: none;
+
+}
+
+.container_info{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1080px;
+    height: 100%;
+
+}
+
+.dog_man{
+    position: absolute;
+    z-index: 1;
+    left: 760px;
+    top: 50px;
+    width: 254px;
+    height: 295px;
+    background: url("../images/kation/first/太空狗.png") 0 0 no-repeat;
+    cursor: pointer;
+    transition: 1.5s;
+
+    animation: dogMan 4s 1s infinite;
+    -webkit-animation: dogMan 4s 1s infinite;
+
+}
+
+.dog_man:hover{
+    background: url("../images/kation/first/太空狗hover.png") 0 0 no-repeat;
+    transition: .7s;
+
+}
+
+@keyframes dogMan {
+    0%{
+        top:50px;
+    }
+    50%{
+        top:75px;
+    }
+    100%{
+        top:50px;
+    }
+}
+
+@-webkit-keyframes dogMan {
+    0%{
+        top:50px;
+    }
+    50%{
+        top:75px;
+    }
+    100%{
+        top:50px;
+    }
+}
+
+.main_logo{
+    position: absolute;
+}
+
+.big_title{
+    position: absolute;
+    left: 130px;
+    top: 40px;
+    width: 385px;
+    height: 292px;
+    background: url("../images/kation/first/行星治療計畫大標題.png") 0 0 no-repeat;
+}
+
+.venus{
+    position: absolute;
+    z-index: 4;
+    top:350px;
+    left: 50px;
+    width: 408px;
+    height: 437px;
+    background: url("../images/kation/first/金星.png") 0 0 no-repeat;
+    cursor: pointer;
+    animation: venusMove 4s 1s infinite;
+    -webkit-animation: venusMove 4s 1s infinite;
+}
+
+.venus:hover{
+    background: url("../images/kation/first/金星hover.png") 0 0 no-repeat;
+    transition: .7s;
+}
+
+.jupiter{
+    position: absolute;
+    z-index: 3;
+    top: 480px;
+    left: 400px;
+    width: 264px;
+    height: 320px;
+    background: url("../images/kation/first/木星.png") 0 0 no-repeat;
+    cursor: pointer;
+}
+
+.jupiter:hover{
+    background: url("../images/kation/first/木星hover.png") 0 0 no-repeat;
+    transition: .7s;
+}
+
+.mercury{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    width: 252px;
+    height: 281px;
+    background: url("../images/kation/first/水星.png") 0 0 no-repeat;
+    cursor: pointer;
+    animation: mercuryMove 5s 1s infinite;
+    -webkit-animation: mercuryMove 5s 1s infinite;
+}
+
+.mercury:hover{
+    background: url("../images/kation/first/水星hover.png") 0 0 no-repeat;
+    transition: .7s;
+}
+
+.mars{
+    position: absolute;
+    top: 250px;
+    left: 800px;
+    width: 215px;
+    height: 234px;
+    background: url("../images/kation/first/火星.png") 0 0 no-repeat;
+    cursor: pointer;
+}
+
+.mars:hover{
+    background: url("../images/kation/first/火星hover.png") 0 0 no-repeat;
+    transition: .7s;
+}
+
+.saturn{
+    position: absolute;
+    top:600px;
+    left: 580px;
+    width: 653px;
+    height: 643px;
+    background: url("../images/kation/first/土星.png") 0 0 no-repeat;
+    cursor: pointer;
+    animation: saturnMove 12s 1s infinite;
+    -webkit-animation: saturnMove 12s 1s infinite;
+
+}
+
+.saturn:hover{
+    background: url("../images/kation/first/土星hover.png") 0 0 no-repeat;
+    transition: .7s;
+}
+
+.sale_no1{
+    position: absolute;
+    top: 210px;
+    left: 175px;
+    width: 151px;
+    height: 151px;
+    background: url("../images/kation/first/銷售冠軍徽章.png") 0 0 no-repeat;
+    animation: saleChange 2s 1s infinite;
+    -webkit-animation: saleChange 2s 1s infinite;
+}
+
+@keyframes saleChange {
+    0%{
+        background: url("../images/kation/first/銷售冠軍徽章.png") 0 0 no-repeat;
+    }
+    50%{
+        background: url("../images/kation/first/銷售冠軍徽章2.png") 0 0 no-repeat;
+    }
+    100%{
+        background: url("../images/kation/first/銷售冠軍徽章.png") 0 0 no-repeat;
+    }
+}
+
+@-webkit-keyframes saleChange {
+    0%{
+        background: url("../images/kation/first/銷售冠軍徽章.png") 0 0 no-repeat;
+    }
+    50%{
+        background: url("../images/kation/first/銷售冠軍徽章2.png") 0 0 no-repeat;
+    }
+    100%{
+        background: url("../images/kation/first/銷售冠軍徽章.png") 0 0 no-repeat;
+    }
+}
+
+.earth{
+    position: absolute;
+    top: 850px;
+    left: -650px;
+    width: 612px;
+    height: 748px;
+    background: url("../images/kation/first/地球.png") 0 0 no-repeat;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 9;
+    transition: 1.5s;
+}
+
+.earth a{
+    width: 612px;
+    height: 748px;
+    display: block;
+}
+
+.earth:hover{
+    background: url("../images/kation/first/地球hover.png") 0 0 no-repeat;
+    transition: .7s;
+}
+
+@keyframes starMove {
+    0%{
+        top:520px;
+    }
+
+    50%{
+        top:550px;
+    }
+
+    100%{
+        top:520px;
+    }
+}
+
+@-webkit-keyframes starMove {
+    0%{
+        top:520px;
+    }
+
+    50%{
+        top:550px;
+    }
+
+    100%{
+        top:520px;
+    }
+}
+
+@keyframes starMove2 {
+    0%{
+        top:450px;
+    }
+    40%{
+        top:470px;
+    }
+    100%{
+        top:450px;
+    }
+}
+
+@-webkit-keyframes starMove2 {
+    0%{
+        top:450px;
+    }
+    40%{
+        top:470px;
+    }
+    100%{
+        top:450px;
+    }
+}
+
+@keyframes venusMove {
+    0%{
+        top:350px;
+    }
+    40%{
+        top:370px;
+    }
+    100%{
+        top:350px;
+    }
+}
+
+@-webkit-keyframes venusMove {
+    0%{
+        top:350px;
+    }
+    40%{
+        top:370px;
+    }
+    100%{
+        top:350px;
+    }
+}
+
+@keyframes mercuryMove {
+    0%{
+        top:350px;
+    }
+    40%{
+        top:370px;
+    }
+    100%{
+        top:350px;
+    }
+}
+
+@-webkit-keyframes mercuryMove {
+    0%{
+        top:350px;
+    }
+    40%{
+        top:370px;
+    }
+    100%{
+        top:350px;
+    }
+}
+
+@keyframes saturnMove {
+    0%{
+        top:600px;
+    }
+    50%{
+        top:640px;
+    }
+    100%{
+        top:600px;
+    }
+}
+
+@-webkit-keyframes saturnMove {
+    0%{
+        top:600px;
+    }
+    50%{
+        top:640px;
+    }
+    100%{
+        top:600px;
+    }
+}
+
+
+.rocket{
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    display: inline-block;
+    animation: rocketmove 10s linear infinite;
+    -webkit-animation: rocketmove 10s linear infinite;
+}
+
+@keyframes rocketmove {
+    0%{
+        left: -200px;
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        left: 500px;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes rocketmove {
+    0%{
+        left: -200px;
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        left: 500px;
+        opacity: 0;
+    }
+}
+
+
+.rocket img:nth-child(1){
+    position: relative;
+    margin-bottom: 23px;
+    animation: rockFire 2s infinite;
+    -webkit-animation: rockFire 2s infinite;
+    z-index: 1;
+}
+
+.rocket img:nth-child(2){
+    position: relative;
+    margin-left: -30px;
+    z-index: 2;
+}
+
+.rocket img:nth-child(3){
+    position: relative;
+    top: -50px;
+    animation: gogogo 6s infinite;
+    -webkit-animation: gogogo 6s infinite;
+}
+
+
+@keyframes rockFire {
+    0%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    89%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    94%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes rockFire {
+    0%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    89%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    94%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes gogogo {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    35%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes gogogo {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    35%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.info_block_bg,.aboutKation_box,.product_info_box,.info_area2,.info_area3,.info_area4{
+  display: none;
+}
+
+.info_block_bg{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.aboutKation_box{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    border-radius: 25px;
+    margin: auto;
+    width: 807px;
+    height: 747px;
+    border: 12px solid #E0853C;
+    background-color: #fff;
+}
+
+.aboutKation_logo{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.delete{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.delete:hover{
+    opacity: .5;
+    transition: .7s;
+}
+
+.all_product {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.jp_No1{
+    position: absolute;
+    bottom: 25px;
+    right: 80px;
+}
+
+.product_slogan{
+    position: absolute;
+    bottom: 90px;
+    right: 30px;
+}
+
+.aboutKation_box ul{
+    width: 100%;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 30px;
+    padding: 30px;
+}
+
+.aboutKation_box ul li{
+   margin-top: 25px;
+}
+
+.aboutKation_box ul h1{
+    font-size: 36px;
+    color: #E0853C;
+    text-align: center;
+}
+
+.aboutKation_box ul p{
+    font-size: 21px;
+    color: #2b2b2b;
+}
+
+.info_area1,.info_area2,.info_area4{
+    position: absolute;
+}
+
+.uni_mark{
+    position: absolute;
+    top: 535px;
+    z-index: 3;
+}
+
+.uni_mark2{
+    position: absolute;
+    top: 555px;
+    z-index: 3;
+}
+
+.product_info_box{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    border-radius: 25px;
+    margin: auto;
+    width: 807px;
+    height: 747px;
+    border: 12px solid #E0853C;
+    background-color: #fff;
+}
+
+.product_bottom_area{
+    position: relative;
+    top: 20px;
+    left: 0;
+    right: 0;
+    padding: 0 35px;
+    margin: auto;
+}
+
+.product_info_box .product_bottom_area li{
+    position: relative;
+    margin: 0 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.product_info_box .product_bottom_area li:hover{
+    opacity: .5;
+    transition: .7s;
+}
+
+.product_img{
+    margin-top: 10px;
+}
+
+.product_info_box .product_w{
+    padding: 0 45px;
+}
+
+.product_info_box .product_w li{
+    margin-bottom: 20px;
+}
+
+.product_info_box .product_w li p{
+    font-size: 19px;
+
+}
+
+
+.info_area2 .product_w2 li{
+    position: absolute;
+    display: none;
+}
+
+.info_area2 .control{
+    position: absolute;
+    left: 650px;
+    top: 620px;
+    margin:auto;
+    width: 250px;
+    height: 36px;
+
+}
+
+.info_area4 .product_w3 li{
+    position: absolute;
+    display: none;
+}
+
+.info_area4 .control{
+    position: absolute;
+    left: 650px;
+    top: 620px;
+    margin:auto;
+    width: 250px;
+    height: 36px;
+
+}
+
+
+.control ul{
+    display: inline-block;
+}
+
+.control ul li{
+    position: relative;
+    width: 36px;
+    height: 34px;
+    display: inline-block;
+    border: 1px solid #3B3B3B;
+    border-radius: 2px;
+    color: #3B3B3B;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+}
+
+.control ul li:hover{
+    background-color: #3B3B3B;
+    color: #fff;
+    transition: .5s;
+}
+
+.control a{
+    display: inline-block;
+    position: relative;
+    width: 36px;
+    height: 34px;
+    border: 1px solid #3B3B3B;
+    border-radius: 2px;
+    color: #3B3B3B;
+    text-align: center;
+    line-height: 34px;
+}
+
+.control a:hover{
+    background-color: #3B3B3B;
+    color: #fff;
+    transition: .5s;
+}
+
+.control li.now{
+    background-color:#3B3B3B;
+    color: #fff;
+}
+
+.info_area3 ul li{
+    margin-top: 15px;
+    display: inline-block;
+
+}
+
+
+@media screen and (max-width: 1080px) {
+
+    .container_info{
+        overflow: hidden;
+    }
+
+}

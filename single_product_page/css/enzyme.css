@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    font-family: 'Open Sans','微軟正黑體';
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-width: 1080px;
+    background-color: #000;
+
+}
+
+.container{
+    display: none;
+}
+
+.container_info{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 1080px;
+
+}
+
+.header{
+    position: relative;
+    height: 167px;
+    width: 1080px;
+}
+
+.top_area{
+    position: relative;
+    height: 114px;
+    width: 1080px;
+    overflow: hidden;
+    background: url("../images/enzyme/酵素奇蹟專頁網站-03.png") 0 0 no-repeat;
+}
+
+.top_area:hover{
+    opacity: .7;
+}
+
+.top_area a{
+    position: absolute;
+    height: 114px;
+    width: 1080px;
+    display: block;
+
+}
+
+ .yellow_bg_area{
+     position: absolute;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background: url("../images/probiotic/益生菌奇蹟專頁網站-18.png") fixed center -450px no-repeat;
+     overflow: hidden;
+ }
+
+.select{
+    position: relative;
+    height: 53px;
+    width: 1080px;
+    overflow: hidden;
+    background: url("../images/probiotic/益生菌奇蹟專頁網站-03.png") 0 0 no-repeat;
+}
+
+.select .menu a p{
+    color: #fff;
+    display: block;
+    font-size: 21px;
+}
+
+.select .menu a{
+    display: block;
+    padding: 14px 18px;
+
+}
+
+.select .menu a:hover{
+    background-color: rgba(255,255,255,.3);
+    transition: .5s;
+}
+
+.menu{
+    position: relative;
+    display: inline-block;
+    margin: 0 9px;
+
+}
+
+.yellow_bg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.info{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 1080px;
+    background-color: #fff;
+}
+
+.first_banner{
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 347px;
+    margin: 0 auto;
+}
+
+.box{
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.box_1{
+
+    width: 1080px;
+    height: 744px;
+}
+
+.box_2{
+    width: 1080px;
+    height: 744px;
+}
+
+.box_2_style{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.box2_left_bottom{
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    left: 0;
+    width: 79px;
+    height: 79px;
+    display: block;
+    cursor: pointer;
+    opacity: .9;
+    background: url("../images/enzyme/酵素奇蹟專頁網站-18.png") 0 0 no-repeat;
+}
+
+.box2_left_bottom:hover{
+    opacity: .5;
+}
+
+.box2_right_bottom{
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    right: 0;
+    width: 79px;
+    height: 79px;
+    display: block;
+    cursor: pointer;
+    opacity: .9;
+    background: url("../images/enzyme/酵素奇蹟專頁網站-19.png") 0 0 no-repeat;
+}
+
+.box2_right_bottom:hover{
+    opacity: .5;
+}
+
+.box_3{
+    width: 100%;
+    height: 738px;
+}
+
+.box_3_pic{
+    position: absolute;
+}
+
+.box3_cat{
+    position: absolute;
+    left: 740px;
+    top: 150px;
+    z-index: -1;
+    transition: .5s;
+
+}
+
+.cat_move{
+    animation: cat_move 2.5s ease forwards;
+}
+
+@keyframes cat_move {
+    0%{
+        opacity: 0;
+        top: 180px;
+        z-index: -1;
+    }
+    10%{
+        opacity: 0;
+        top: 180px;
+        z-index: -1;
+    }
+    30%{
+        opacity: 1;
+        top: 50px;
+        z-index: 3;
+    }
+    100%{
+        opacity: 1;
+        top: 100px;
+        z-index: 3;
+    }
+}
+
+.box_4{
+    width: 1080px;
+    height: 752px;
+    background: url("../images/probiotic/益生菌奇蹟專頁網站-21.png") fixed center center no-repeat;
+    overflow: hidden;
+}
+
+
+.box_4 img{
+    position: absolute;
+}
+
+.box_5{
+    width: 100%;
+    height: 956px;
+}
+
+.block{
+    display: block;
+}
+
+.footer{
+    position: relative;
+    width: 1080px;
+    height: 200px;
+    background-color: #bbb;
+    text-align: center;
+}
+
+.dog{
+    position: absolute;
+}
+
+.where_buy_box{
+    position: relative;
+    background-color: #fff;
+    border-radius: 40px;
+    width: 690px;
+    height: 769px;
+    border: 10px solid #D19500;
+}
+
+#goToTop_area{
+    position: fixed;
+    width: 98px;
+    height: 126px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 10px;
+    z-index: 4;
+    animation: goToTop 1s  infinite;
+    display: none;
+}
+
+#goToTop_area:hover{
+    opacity: .7;
+    cursor: pointer;
+    transition: .7s;
+}
+
+@keyframes goToTop {
+    0%{
+        background: url("../images/enzyme/gototop.png") center center no-repeat;
+    }
+    50%{
+        background: url("../images/enzyme/gototop2.png") center center no-repeat;
+    }
+    100%{
+        background: url("../images/enzyme/gototop.png") center center no-repeat;
+    }
+}
+

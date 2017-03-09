@@ -1,0 +1,248 @@
+
+
+.container{
+    position: relative;
+    width: 1024px;
+    height: 710px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0px 8px 15px #888888;
+    z-index: 1;
+}
+
+.left_area{
+    position: absolute;
+    left: 0;
+    width: 186px;
+}
+
+.left_area ul{
+    width: 165px;
+    margin-top: 70px;
+    margin-left: 10px;
+    /*border: 1px solid #fa00fa;*/
+}
+
+.left_area ul li{
+    /*border: 1px solid #000;*/
+    height: 40px;
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 40px;
+}
+
+.left_area ul li:hover{
+    /*border: 1px solid #000;*/
+    background-color: #4B916C;
+    transition: 1s;
+}
+
+.left_area ul li:hover a p{
+    /*border: 1px solid #000;*/
+    color: #fff;
+    transition: 1s;
+}
+
+.left_area ul li a p{
+    color: #4B916C;
+    margin-left: 15px;
+}
+
+
+.right_area{
+    position: relative;
+    left: 186px;
+    top: 0;
+    width: 838px;
+    height: 100%;
+    /*border: 1px solid #00f;*/
+    padding-bottom: 230px;
+}
+
+.right_area ul{
+    position: relative;
+    top: 60px;
+    /*border: 1px solid #00bf00;*/
+    margin-left: 30px;
+}
+
+.right_area ul li:nth-child(1){
+    font-size: 26px;
+    color: #498C69;
+    margin-bottom: 15px;
+}
+
+.right_area ul li:nth-child(2){
+    width: 476px;
+    font-size: 16px;
+    color: #565758;
+}
+.right_area li img{
+    position: absolute;
+    right: 60px;
+    top: 130px;
+}
+
+.right_area .company_pic_area{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 30px;
+
+}
+
+.company_pic_area .company_pic_style{
+    float: left;
+    margin-right: 20px;
+    width: 57px;
+    height: 57px;
+    cursor: pointer;
+    animation: companyPic 4s infinite;
+}
+
+.company_pic_style:hover{
+    opacity: .6;
+    transition: .7s;
+}
+
+.position_path_area{
+    position: absolute;
+    top: 35px;
+    right: 60px;
+    /*border: 1px solid #0f0fff;*/
+}
+
+.position_path_area .position_path{
+    float: left;
+    /*border: 1px solid #00fa00;*/
+    margin-right: 5px;
+}
+
+.position_path_style2:hover p{
+    color: #f00;
+}
+
+.position_path_area .position_path:nth-last-child(1) p{
+    color: #085AA3;
+    text-decoration: none;
+}
+
+.position_path_area .position_path p{
+    font-size: 12px;
+    float: left;
+}
+
+.position_path_style1 p{
+    color: #5e5e5e;
+}
+
+.position_path_style2 a p{
+    text-decoration: underline;
+    color: #4B916C;
+}
+
+@keyframes companyPic{
+    0%{
+        box-shadow: 0px 0px 12px #fff;
+    }
+    50%{
+        box-shadow: 0px 0px 15px #007C38;
+    }
+    100%{
+        box-shadow: 0px 0px 12px #fff;
+    }
+}
+
+.company_pic_1{
+    background: url("../images/aboutUs/companyPic-02.png") 0 0 no-repeat;
+}
+
+.company_pic_2{
+    background: url("../images/aboutUs/companyPic-03.png") 0 0 no-repeat;
+}
+
+.company_pic_3{
+    background: url("../images/aboutUs/companyPic-04.png") 0 0 no-repeat;
+}
+
+.companyPic_area_fixed{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    /*background-color: rgba(200,200,200,.6);*/
+    display: none;
+}
+
+.companyPic_fixed_box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 500px;
+    height: 611px;
+    background-color: rgba(0,0,0,.6);
+}
+
+.companyPic_delete_icon{
+    position: absolute;
+    right: 0;
+    width: 29px;
+    height: 29px;
+    background: url("../images/icon/delete_icon.png") 0 0 no-repeat;
+}
+
+.companyPic_delete_icon:hover{
+    opacity: .7;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.companyPic_fixed_1{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 450px;
+    height: 512px;
+    background: url("../images/aboutUs/CompanyOverview__R&D_center.jpg") center center no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+.companyPic_fixed_2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 378px;
+    height: 510px;
+    background: url("../images/aboutUs/CompanyOverview_cGMP_plant.jpg")  center center no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+.companyPic_fixed_3{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 450px;
+    height: 512px;
+    background: url("../images/aboutUs/CompanyOverview_Company.jpg")  center center no-repeat;
+    background-size: cover;
+    display: none;
+}
+

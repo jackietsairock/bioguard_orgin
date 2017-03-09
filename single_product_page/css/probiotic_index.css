@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    font-family: 'Open Sans','微軟正黑體';
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body,html{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("../images/probiotic/益生菌奇蹟first-bg1920x1080.png") 0 0 no-repeat;
+
+
+}
+
+.container{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 768px;
+    display: none;
+
+}
+
+.bg_big{
+    position: absolute;
+}
+
+.container_info{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1080px;
+    height: 100%;
+    min-height: 768px;
+}
+
+.good{
+    width: 376px;
+    height: 86px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 5% auto 0 10%;
+    background: url("../images/probiotic/益生菌奇蹟讚1920x1080.png") 0 0 no-repeat;
+}
+
+.product{
+    background: url("../images/probiotic/益生菌奇蹟產品1920x1080.png") 0 0 no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 25% auto 0 auto;
+    width: 444px;
+    height: 423px;
+    z-index: 2;
+
+}
+
+.title{
+    position: absolute;
+    width: 511px;
+    height: 157px;
+    background: url("../images/probiotic/益生菌奇蹟標題1920x1080.png") 0 0 no-repeat;
+    left: 0;
+    right: 0;
+    margin: 56% auto 0 auto;
+    display: none;
+}
+
+
+.pic{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 199px;
+    height: 173px;
+    display: none;
+}
+
+.pic_1{
+    margin: 15% auto 0 38%;
+    background: url("../images/probiotic/益生菌奇蹟前導頁-05.png") 0 0 no-repeat;
+}
+
+.pic_2{
+    margin: 7% auto 0 52%;
+    background: url("../images/probiotic/益生菌奇蹟前導頁-07.png") 0 0 no-repeat;
+}
+
+.pic_3{
+    margin: 15% auto 0 66.1%;
+    background: url("../images/probiotic/益生菌奇蹟前導頁-09.png") 0 0 no-repeat;
+}
+
+.pic_4{
+    margin: 31.3% auto 0 66.1%;
+    background: url("../images/probiotic/益生菌奇蹟前導頁-11.png") 0 0 no-repeat;
+}
+
+
+.enter{
+    position: absolute;
+    width: 280px;
+    height: 55px;
+    left: 0;
+    right: 0;
+    margin: 75% auto auto auto;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    display: none;
+}
+
+.enter:hover a p{
+    color: #fff;
+}
+
+.enter:hover{
+    background-color: #009cff;
+    border: 1px solid #fff;
+}
+
+.enter a p{
+    line-height: 55px;
+    color: #1D2087;
+    font-size: 2em;
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1366px) {
+    body,html{
+
+        background: url("../images/probiotic/益生菌奇蹟first-bg1366x768.png") 0 0 no-repeat;
+
+    }
+
+    .good{
+        width: 298px;
+        height: 66px;
+        margin: 5% auto 0 24%;
+        background: url("../images/probiotic/益生菌奇蹟讚1366x768.png") 0 0 no-repeat;
+    }
+
+    .product{
+        width: 343px;
+        height: 327px;
+        background: url("../images/probiotic/益生菌奇蹟產品1366x768.png") 0 0 no-repeat;
+        margin: 18% auto 0 auto;
+
+    }
+
+    .title{
+        width: 394px;
+        height: 121px;
+        background: url("../images/probiotic/益生菌奇蹟標題1366x768.png") 0 0 no-repeat;
+        margin: 43% auto 0 auto;
+
+    }
+
+    .pic{
+        width: 153px;
+        height: 133px;
+    }
+
+    .pic_1{
+        margin: 11% auto 0 42%;
+        background: url("../images/probiotic/益生菌奇蹟前導頁-06.png") 0 0 no-repeat;
+    }
+
+    .pic_2{
+        margin: 4.7% auto 0 52.8%;
+        background: url("../images/probiotic/益生菌奇蹟前導頁-08.png") 0 0 no-repeat;
+    }
+
+    .pic_3{
+        margin: 11% auto 0 63.6%;
+        background: url("../images/probiotic/益生菌奇蹟前導頁-10.png") 0 0 no-repeat;
+    }
+
+    .pic_4{
+        margin: 23.6% auto 0 63.6%;
+        background: url("../images/probiotic/益生菌奇蹟前導頁-12.png") 0 0 no-repeat;
+    }
+
+    .enter{
+        margin: 65% auto auto auto;
+        width: 240px;
+        height: 45px;
+    }
+
+    .enter a p{
+        line-height: 45px;
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and  (max-width: 1080px) {
+
+    body,html{
+        position: relative;
+        width: 100%;
+        height: 1920px;
+        background: url("../images/probiotic/益生菌奇蹟first-bg1920x1080.png") 0 0 no-repeat;
+
+
+    }
+
+    .container{
+        position: relative;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1920px;
+        min-height: 768px;
+        display: none;
+
+    }
+}

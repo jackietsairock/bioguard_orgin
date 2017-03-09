@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    font-family: 'Open Sans','微軟正黑體';
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    background-color: #fff;
+}
+
+body{
+    width: 100%;
+    min-width: 1024px;
+
+    /*border:1px solid #ff0000;*/
+    background: url("../images/body.png") fixed center center no-repeat;
+    background-size: cover;
+
+}
+
+.header{
+    width: 1024px;
+    height: 155px;
+    /*border: 1px solid #0000bf;*/
+    background-color: #fff;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    box-shadow: 0 6px 5px #888888;
+    z-index: 2;
+    transition: .7s;
+
+}
+
+.header_bg{
+    width: 1024px;
+    height: 155px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    background: url("../images/index/index-08.png") center center no-repeat;
+    transition: .7s;
+}
+
+.fake_header{
+    width: 1024px;
+    height: 155px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 2;
+    display: none;
+}
+
+.Language-link-area{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+
+
+.Language-link-area li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+    /*border: 1px solid #1b6d85;*/
+    width: 78px;
+}
+
+.Language-link-area li a p{
+    line-height: 18px;
+    color: #296E49;
+    transition: .4s;
+}
+
+.Language-link-area li img{
+    margin: auto 2px auto 0;
+    float: left;
+}
+
+.menu-area{
+    width: 100%;
+    height: 45px;
+    /*border: 1px solid #00d;*/
+    position: absolute;
+    bottom: 0;
+}
+
+.menu-area ul{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 900px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    /*border: 1px solid #0a2b1d;*/
+}
+
+.menu-area ul li{
+    position: relative;
+    float: left;
+    margin: auto 35px auto 0;
+    /*border: 1px solid #00bf00;*/
+    font-size: 17px;
+    color: #575858;
+    letter-spacing: 1px;
+}
+
+
+
+.menu-area ul li:nth-child(4){
+    margin: auto 31px auto 0;
+    /*border: 1px solid #aaa;*/
+
+}
+
+.menu-area ul li:nth-child(6){
+    position: relative;
+    float: left;
+    margin-right: 0;
+    /*border: 1px solid #00bf00;*/
+    font-size: 17px;
+    color: #575858;
+
+}
+
+.menu-area ul li a b{
+    color: #575858;
+
+}
+
+.menu-area ul li a:hover b{
+    color: #498C69;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.detection-report-online-link{
+    width: 190px;
+    height: 17px;
+    position: absolute;
+    left: 750px;
+    top: 85px;
+    /*border: 1px solid #fa00fa;*/
+}
+
+.detection-report-online-link li a img{
+    float: left;
+}
+
+.detection-report-online-link li a p{
+    font-size: 14px;
+    color: #498C69;
+    line-height: 17px;
+    margin-left: 30px;
+}
+
+.detection-report-online-link:hover p{
+    color: #E51A1A;
+    transition: .7s;
+    text-decoration: underline;
+}
+
+.sandwich_icon{
+    display: none;
+}
+
+.line-link{
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 24px;
+    left: 950px;
+    top: 82px;
+}
+
+.line-link a{
+    width: 25px;
+    height: 24px;
+    position: absolute;
+    background: url("../images/icon/line-icon-08.png") 0 0 no-repeat;
+    display: block;
+    transition: .4s;
+}
+
+
+.pat {
+    stroke-dashoffset: 400;
+    stroke-dasharray: 400;
+    fill-opacity: 0;
+    animation: aa 4s  linear forwards;
+}
+
+
+
+@keyframes aa {
+    60% {
+        stroke-dashoffset: 0;
+    }
+    60% {
+        fill-opacity: 0;
+    }
+    70% {
+        fill-opacity: 0;
+    }
+    90%{
+        stroke-dashoffset: 0;
+        fill-opacity: .5;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        fill-opacity: 1;
+        stroke-opacity: 0;
+    }
+}
+
+/*---選單的連結--------------*/
+
+.link-1_area{
+    width: 94px;
+    height: 45px;
+}
+
+.link-1{
+    width: 94px;
+    height: 45px;
+    display: block;
+}
+
+.link-2_area{
+    width: 98px;
+    height: 45px;
+}
+
+.link-2{
+    width: 98px;
+    height: 45px;
+    display: block;
+}
+
+.link-3_area{
+    width: 190px;
+    height: 45px;
+}
+
+.link-3{
+    width: 190px;
+    height: 45px;
+    display: block;
+}
+
+.link-4_area{
+    width: 56px;
+    height: 45px;
+}
+
+.link-4{
+    width: 56px;
+    height: 45px;
+    display: block;
+}
+
+
+.link-5_area{
+    width: 120px;
+    height: 45px;
+}
+
+.link-5{
+    width: 120px;
+    height: 45px;
+    display: block;
+}
+
+.link-6_area{
+    width: 157px;
+    height: 45px;
+}
+
+.link-6{
+    width: 157px;
+    height: 45px;
+    display: block;
+}
+
+.menu-area ul .link_li_area-ch{
+    margin: auto 31px auto 0;
+}
+
+.link-1_area-ch{
+    width: 94px;
+    height: 45px;
+}
+
+.link-1_area-ch > .link-1{
+    width: 98px;
+    height: 45px;
+    display: block;
+}
+
+.link-2_area-ch{
+    width: 98px;
+    height: 45px;
+}
+
+.link-2_area-ch > .link-2{
+    width: 98px;
+    height: 45px;
+    display: block;
+}
+
+.link-3_area-ch{
+    width: 190px;
+    height: 45px;
+}
+
+.link-3_area-ch > .link-3{
+    width: 190px;
+    height: 45px;
+    display: block;
+}
+
+.link-4_area-ch{
+    width: 98px;
+    height: 45px;
+}
+
+.link-4_area-ch > .link-4{
+    width: 98px;
+    height: 45px;
+    display: block;
+}
+
+
+.link-5_area-ch{
+    width: 98px;
+    height: 45px;
+}
+
+.link-5_area-ch > .link-5{
+    width: 98px;
+    height: 45px;
+    display: block;
+}
+
+.link-6_area-ch{
+    width: 130px;
+    height: 45px;
+}
+
+.link-6_area-ch > .link-6{
+    width: 130px;
+    height: 45px;
+    display: block;
+}
+
+.select-area-style{
+    position: absolute;
+    top:45px;
+    width: 222px;
+    border: 1px solid #B4B4B4;
+    background: #ffffff;
+    display: none;
+}
+
+.select-area-style2{
+    position: absolute;
+    top: 0;
+    left: 220px;
+
+}
+
+
+.select-area-link{
+    position: relative;
+    width: 220px;
+    height: 42px;
+    border-bottom: 1px solid #B4B4B4;
+    font-size: 14px;
+    text-align: left;
+    line-height: 42px;
+}
+
+.select-area-link a{
+    width: 220px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.select-area-link a:hover p{
+    color: #498C69;
+    transition: .4s;
+}
+
+.select-area-link a p{
+    margin-left: 15px;
+    color: #3E3A39;
+}
+
+.select-color{
+    position: relative;
+    width: 220px;
+    height: 5px;
+}
+
+.select-color-1{
+    background-color: #498C69;
+}
+
+.select-color-2{
+    background-color: #B4B4B4;
+}
+
+
+
+/*內文淡入用-需先消失，否則一開始load網頁會先出現後又馬上消失再淡入----*/
+.container, .footer{
+    display: none;
+}
+/*-------------------*/
+
+/*視窗小於等於1024的選單*/
+.menu-area2{
+    display: none;
+    position: absolute;
+    top: 120px;
+    z-index: 3;
+    width: 1024px;
+}
+
+.menu-area2 ul{
+    position: absolute;
+    width: 1024px;
+    background-color: #fff;
+}
+
+.menu-area2-link-style{
+    position: relative;
+    width: 1024px;
+    height: 50px;
+    background-color: #6AA083;
+    border-bottom:1px solid #fff;
+    line-height: 50px;
+    display: block;
+}
+
+.menu-area2-link-style a{
+    display: block;
+    width: 1024px;
+    height: 50px;
+}
+
+.menu-area2-link-style:hover b{
+    color: #203230;
+    transition: .5s;
+}
+
+.menu-area2-link-style a b{
+    margin-left: 25px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.select-area-style22{
+    position: relative;
+    /*border: 1px solid #fa00fa;*/
+    display: block;
+}
+
+.select-area-style33{
+    position: relative;
+    background-color: #AAAAAA;;
+}
+
+.select-area-link2{
+    position: relative;
+    left: 0;
+    border-bottom: 1px solid #aaa;
+    height: 50px;
+    line-height: 50px;
+}
+
+.select-area-link2 a p{
+    margin-left: 25px;
+    color: #498C69;
+    font-size: 20px;
+}
+
+.select-area-link2:hover p{
+    color: #203230;
+    transition: .5s;
+}
+
+.select-area-link3{
+    position: relative;
+    left: 0;
+    border-bottom: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+.select-area-link3:hover p{
+    color: #203230;
+    transition: .5s;
+}
+
+.select-area-link3 a p{
+    margin-left: 25px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .detection-report-online-link{
+        left: 550px;
+    }
+
+    .header_bg{
+        height: 120px;
+    }
+
+    .line-link{
+        left: 750px;
+    }
+
+    .sandwich_icon{
+        width: 74px;
+        height: 15px;
+        position: absolute;
+        right: 110px;
+        top: 85px;
+        background: url("../images/icon/sandwich_icon.png") 0 0 no-repeat;
+        cursor: pointer;
+        display: block;
+    }
+
+
+}
+
+@media screen and (max-width: 1080px) {
+
+    body{
+
+        background: url("../images/body2.png") fixed center center no-repeat;
+    }
+
+}
+
+/*-------------------------*/

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    font-family: 'Open Sans','微軟正黑體';
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.container{
+    position: relative;
+    width: 1080px;
+    padding: 20px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 8px 15px #888888;
+
+}
+
+.blue{
+    color: #0000bf;
+}
+
+.red{
+    color: #F00;
+}
+
+.w_2{
+    width: 1000px;
+  }
+
+.news_link > a:hover{
+    text-decoration: underline;
+}
